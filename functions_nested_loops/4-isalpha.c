@@ -1,8 +1,9 @@
 #include "main.h"
 /**
  * _isalpha - check the code.
+ * @c: the character to check
  *
- * Return : 1 or 0
+ * Return : 1 if the c is a letter. 0 otherwise
  */
 int _isalpha(int c)
 {
