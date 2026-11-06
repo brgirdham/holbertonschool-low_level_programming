@@ -5,11 +5,10 @@
  * @a: integer to be checked
  * @b: integer to be checked
  *
- * Return: Always result
+ * Return: Result always
  */
 int mul(int a, int b)
 {
-int result = a * b;
-printf("%d\n", result);
-return (result);
+  int result = a * b;
+  return (result)
 }
