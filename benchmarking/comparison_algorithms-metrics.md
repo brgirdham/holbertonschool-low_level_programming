@@ -1,0 +1,1 @@
+The average implementation time for the Naive algorithm was 2.4869954 seconds compared to the Single-Pass algorithm having an average of 0.000097 seconds. THat means that the Single-Pass algorithm is 25,639 times faster than the Naive algorithm.
