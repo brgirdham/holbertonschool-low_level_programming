@@ -1,12 +1,12 @@
 #include "main.h"
 /**
-  * Reset to 98 - resets to 98
+  * Reset_to_98: resets to 98
+  * n: to be changed
+  * Return: Void
   *
-  * Return: Always 0
   */
 void reset_to_98(int *n)
 {
-  int number = 98
-    int *p = &number;
-
-  printf(
+*n = 98;
+return;
+}
