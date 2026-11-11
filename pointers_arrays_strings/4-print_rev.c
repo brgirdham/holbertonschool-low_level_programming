@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-  * print_rev - Length of string in reverse
-  * @s: to be changed
+  * print_rev - string in reverse
+  * @s: string to be printed
   * Return: Void
   *
   */
