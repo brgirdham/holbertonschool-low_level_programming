@@ -1,4 +1,4 @@
-#inclue "main.h"
+#include "main.h"
 /**
  * _memset - memory
  * @s: memory pointed to0
