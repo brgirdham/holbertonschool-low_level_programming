@@ -1,0 +1,12 @@
+#include "main.h"
+/**
+  * _memset - memory
+  * @s: pointer
+  * @b: constant byte
+  * @n: bytes of memory
+  * Return: void
+  *
+  */
+char *_memset(char *s, char b, unsigned int n)
+{
+  
