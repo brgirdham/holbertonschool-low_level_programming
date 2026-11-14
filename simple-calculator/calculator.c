@@ -11,6 +11,7 @@ int main(void)
   choice = 1;
   while (choice != 0)
     {
+      printf ("Welcome, please select on of the options\n");
       printf ("Simple Calculator\n");
       printf ("1) Add\n");
       printf ("2) Subtract\n");
@@ -28,35 +29,35 @@ int main(void)
 	} 
       else if (choice == 1)
 	{
-	  printf("A: ");
+	  printf("Please Provide a number for A: ");
 	  scanf("%f", &A);
-	  printf("B: ");
+	  printf("Please Provide a number for B: ");
 	  scanf("%f", &B);
 	  result = A + B;
 	  printf("Result = %.2f\n", result);
 	}
       else if (choice == 2)
 	{
-	  printf("A: ");
+	  printf("Please Provide a number for A: ");
 	  scanf("%f", &A);
-          printf("B: ");
+          printf("Please provide a number for B: ");
           scanf("%f", &B);
           result = A - B;
 	  printf("Result = %.2f\n", result);
 	}
       else if (choice == 3)
-	{printf("A: ");
+	{printf("Please Provide a number for A: ");
           scanf("%f", &A);
-          printf("B: ");
+          printf("Please Provide a number for B: ");
           scanf("%f", &B);
           result = A * B;
           printf("Result = %.2f\n", result);
 	}
       while (choice == 4)
 	{
-	  printf("A: ");
+	  printf("Please Provide a number for A: ");
           scanf("%f", &A);
-          printf("B: ");
+          printf("Please Provide a number forB: ");
           scanf("%f", &B);
 	  if (B == 0)
 	    {
