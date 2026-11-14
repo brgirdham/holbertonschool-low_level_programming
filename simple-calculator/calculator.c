@@ -5,9 +5,9 @@
 int main(void)
 {
   int choice;
-  int result;
-  int A;
-  int B;
+  float result;
+  float A;
+  float B;
   choice = 1;
   while (choice != 0)
     {
@@ -29,29 +29,43 @@ int main(void)
       else if (choice == 1)
 	{
 	  printf("A: ");
-	  scanf("%d", &A);
+	  scanf("%f", &A);
 	  printf("B: ");
-	  scanf("%d", &B);
+	  scanf("%f", &B);
 	  result = A + B;
-	  printf("Result = %d\n", result);
+	  printf("Result = %.2f\n", result);
 	}
       else if (choice == 2)
 	{
 	  printf("A: ");
-          scanf("%d", &A);
+	  scanf("%f", &A);
           printf("B: ");
-          scanf("%d", &B);
+          scanf("%f", &B);
           result = A - B;
-	  printf("Result = %d\n", result);
+	  printf("Result = %.2f\n", result);
 	}
       else if (choice == 3)
-	{
-          printf("A: ");
-          scanf("%d", &A);
+	{printf("A: ");
+          scanf("%f", &A);
           printf("B: ");
-          scanf("%d", &B);
+          scanf("%f", &B);
           result = A * B;
-          printf("Result = %d\n", result);
+          printf("Result = %.2f\n", result);
+	}
+      while (choice == 4)
+	{
+	  printf("A: ");
+          scanf("%f", &A);
+          printf("B: ");
+          scanf("%f", &B);
+	  if (B == 0)
+	    {
+	      printf("Error: division by zero\n");
+	      break;
+	    }
+	  result = A / B;
+	  printf("Result = %.2f\n", result);
+	  break;
 	}
     }
   return(0);
