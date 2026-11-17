@@ -17,7 +17,7 @@ if (s1 == NULL || s2 == NULL)
 if (s1 == NULL)
 s1 = "";
 if (s2 == NULL)
-s2 = "";
+s2 = "";}
 p = s1;
 q = s2;
 while (*p != '\0' || *q != '\0')
