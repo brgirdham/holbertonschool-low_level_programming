@@ -20,7 +20,7 @@ j = va_arg(args, unsigned int);
 printf("%d", j);
 if (separator != NULL && (i != (n - 1)))
 {
-printf("%s ", separator);
+printf("%s", separator);
 }
 i++;
 }
